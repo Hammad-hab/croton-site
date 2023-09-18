@@ -1,0 +1,13 @@
+
+# declaring a function!
+declare sayHelloTo {
+    Argument name as arg0 # Getting arguments is really simple...
+    # creating a variable named concatenated.
+    define(concatenated concat("Hello " name)) 
+
+    return concatenated # returing the concatenated string
+}
+
+define("message" sayHelloTo("User")) # yes you can declare a variable using a string too!
+
+println(message "!") # Hello User!

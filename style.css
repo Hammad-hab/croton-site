@@ -174,3 +174,10 @@ div#nav > ul > li:hover {
   top: 0 !important;
   z-index: 2;
 }
+
+.code {
+  background-image: url(/program.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
